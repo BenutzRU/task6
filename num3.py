@@ -21,7 +21,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(math.factorial(0), 1)
 
     def testtwo_pos(self):
-        self.assertEqual(math.factorial(5), 120)
+        self.assertEqual(math.factorial(3), 6)
 
     def testthree_neg(self):
         with self.assertRaises(ValueError):
